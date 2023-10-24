@@ -1,13 +1,105 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  --color-header-middle-bg: #fff;
+  --color-header-middle-bg-grad: #fff;
+  --color-header-middle-text: #203253;
+  --color-header-middle-text-hover: #539ddb;
+  --color-header-transparent-bg: transparent;
+  --color-header-transparent-bg-grad: transparent;
+  --color-header-transparent-text: #203253;
+  --color-header-transparent-text-hover: #539ddb;
+  --color-chrome-toolbar: #ffffff;
+  --color-chrome-toolbar-grad: #ffffff;
+  --color-content-bg: #fff;
+  --color-content-bg-grad: #fff;
+  --color-content-bg-alt: #f4faff;
+  --color-content-bg-alt-grad: #f4faff;
+  --color-content-border: #e6f1fa;
+  --color-content-heading: #203253;
+  --color-content-heading-grad: #203253;
+  --color-content-text: #335d83;
+  --color-content-link: #539ddb;
+  --color-content-link-hover: #b1ddff;
+  --color-content-primary: #72b3ea;
+  --color-content-primary-grad: #72b3ea;
+  --color-content-secondary: #b1ddff;
+  --color-content-secondary-grad: #b1ddff;
+  --color-content-faded: #4c6a85;
+  --color-content-overlay: rgba(0, 0, 0, 0.75);
+  --color-content-overlay-grad: rgba(0, 0, 0, 0.75);
+  --color-alt-content-bg: #d0ebff;
+  --color-alt-content-bg-grad: #d0ebff;
+  --color-alt-content-heading: #203253;
+  --color-alt-content-heading-grad: #203253;
+  --color-alt-content-text: #335d83;
+  --color-footer-bg: #203253;
+  --color-footer-bg-grad: #203253;
+  --color-footer-bg-alt: #335d83;
+  --color-footer-bg-alt-grad: #335d83;
+  --color-footer-border: #e6f1fa;
+  --color-footer-heading: #ffffff;
+  --color-footer-heading-grad: #ffffff;
+  --color-footer-text: #ffffff;
+  --color-footer-link: #ffffff;
+  --color-footer-link-hover: #539ddb;
+  --color-content-primary-faded: rgba(114, 179, 234, 0.15);
+  --box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  --box-shadow-up: 0 -5px 15px rgba(0, 0, 0, 0.15);
+  --site-content-width: 1280px;
+  --inputs-font-size: 16px;
+  --inputs-height: 62px;
+  --inputs-padding: 1.5rem;
+  --inputs-border-width: 2px;
+}
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+a {
+  transition-property: background, box-shadow, border, color, opacity, transform;
+  transition-duration: 0.3s;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+h1,
+h2,
+h3 {
+  color: var(--color-content-heading);
+}
+h1 {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+h2 {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 1.2;
+  letter-spacing: 0;
+}
+@media (max-width: 992px) {
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
 }

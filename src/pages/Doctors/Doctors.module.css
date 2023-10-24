@@ -1,0 +1,16 @@
+.doctors__head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.doctors__head > * {
+  width: 50%;
+}
+@media (max-width: 992px) {
+  .doctors__head {
+    flex-direction: column;
+  }
+  .doctors__head > * {
+    width: 100%;
+  }
+}

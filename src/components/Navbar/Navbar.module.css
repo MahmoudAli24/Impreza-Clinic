@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+  color: var(--color-content-heading);
+  background-color: var(--color-header-middle-bg);
+}
+.navbar a:hover > span,
+.navbar a:hover {
+  color: var(--color-header-transparent-text-hover);
+}

@@ -1,0 +1,42 @@
+.side-nav > span {
+  font-size: 24px;
+}
+.side-nav > div {
+  z-index: 10;
+  box-shadow: var(--box-shadow);
+  position: absolute;
+  width: 270px;
+  height: calc(100vh - 76px);
+  right: 0;
+  background-color: var(--color-header-middle-bg);
+  padding: 20px;
+  transform: translateX(-30px);
+  -webkit-transform: translateX(-30px);
+  -moz-transform: translateX(-30px);
+  -ms-transform: translateX(-30px);
+  -o-transform: translateX(-30px);
+}
+.side-nav > div li {
+  margin-bottom: 10px;
+}
+.links-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  gap: 20px;
+}
+.links-list span {
+  font-size: 32px;
+  padding: 16px 0;
+}
+.links-list span a:hover {
+  color: var(--color-header-transparent-text-hover);
+}
+.show {
+  display: block;
+}
+.none {
+  display: none;
+}

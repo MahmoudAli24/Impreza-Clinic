@@ -1,0 +1,47 @@
+.about-header {
+  height: 80dvh;
+  padding: 60px;
+  border-radius: 30px;
+  background: url(../../Assets/1st-pic.jpg) 50% / cover !important;
+  display: flex;
+  justify-content: flex-end;
+}
+.about-header__text {
+  width: 48%;
+  height: fit-content;
+  padding: 50px;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+@media (max-width: 1200) {
+  .about-header {
+    padding: 50px;
+  }
+  .about-header__text {
+    padding: 40px;
+  }
+}
+@media (max-width: 1024px) {
+  .about-header,
+  .about-header__text {
+    padding: 30px;
+  }
+  .about-header {
+    justify-content: unset;
+  }
+  .about-header__text {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .about-header {
+    padding: 20px;
+  }
+  .about-header__text {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,10 @@
+.navbar-logo a > span {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar-logo a > span span {
+  font-size: 24px;
+  font-weight: 600;
+  transition-duration: 0.3s;
+}

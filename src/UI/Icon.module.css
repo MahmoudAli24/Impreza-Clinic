@@ -1,0 +1,14 @@
+.icon {
+  height: 75px;
+  width: 75px;
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: var(--color-content-primary-grad);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon > * {
+  color: white;
+  font-size: 30px;
+}

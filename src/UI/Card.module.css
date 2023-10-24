@@ -1,0 +1,14 @@
+.card {
+  padding: 40px;
+  background-color: var(--color-content-bg-alt);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+@media (max-width: 991px) {
+  .card {
+    padding: 30px;
+  }
+}

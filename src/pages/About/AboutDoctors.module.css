@@ -1,0 +1,40 @@
+.aboutDoctors {
+  padding-top: 6vmax;
+}
+.aboutDoctors__header {
+  display: flex;
+  align-items: flex-end;
+}
+.aboutDoctors__header > * {
+  width: 50%;
+}
+.aboutDoctors__header_button a {
+  display: block;
+  margin-left: auto;
+  width: fit-content;
+  text-align: end;
+  font-size: 16px;
+  line-height: 1.2 !important;
+  font-weight: 500;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0em;
+  border-radius: 10px;
+  padding: 1.2em 2.4em;
+  background: var(--color-header-middle-text);
+  border-color: transparent;
+  color: var(--color-header-middle-bg) !important;
+}
+.aboutDoctors__header_button a:hover {
+  background-color: var(--color-content-primary);
+  border-color: transparent;
+  color: var(--color-header-middle-bg);
+}
+@media screen and (max-width: 768px) {
+  .aboutDoctors__header > * {
+    width: 100%;
+  }
+  .aboutDoctors__header_button {
+    display: none;
+  }
+}
